@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>丽王网站</title>
+    <link rel="icon" href="./images/icon.png" type="image/png">
+    <link rel="stylesheet" href="./public/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/Reset.css">
+    <link rel="stylesheet" href="style/product.css"/>
+    <script src="./public/fontSize.js"></script>
+    <script src="./public/jquery/dist/jquery.js"></script>
+    <script src="./public/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        var _aboutHt = $(window).width();
+        var pageCount;
+    </script>
+    <script src="./project/pageGroup.js"></script>
+    <script src="./project/header.js"></script>
+    <script src="./project/product.js"></script>
+    <script src="./project/footer.js"></script>
+</head>
+<body>
+<div class="proContent">
+    <section class="productContainer">
+        <div class="productContainer-1">
+            <!--最外层大于1440则留白-->
+            <div class="productContainer-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <!--有机颜料标题-->
+                            <div class="titleTop col-md-10">
+                                <div>
+                                    <h3>有机颜料</h3>
+                                    <p>Organic Pigment</p>
+                                </div>
+                            </div>
+                            <!--列表-->
+                            <div class="proList col-md-12" style="padding: 0 35px 40px!important;">
+                                <div class="row">
+                                    <div class="talTop  col-md-offset-1 col-md-10" style="padding: 40px 0 !important;">
+                                        <div class="talTopContent" data-hide="0"><a href="javascript:;" class="activePro firstNav">油墨用有机颜料</a><img src="./images/logo-icon.png" alt="图片加载失败"class="logoIcon">
+                                            <ul class="talTopNav">
+                                                <li><a href="javascript:;">水性墨用有机颜料</a></li>
+                                                <li><a href="#4">溶剂墨用有机颜料</a></li>
+                                                <li><a href="#23">胶印墨用有机颜料</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="proLine">|</div>
+                                        <div class="talTopContent" data-hide="1"><a href="javascript:;" class="firstNav">涂料用有机颜料</a><img src="./images/logo-icon.png" alt="图片加载失败"class="logoIcon">
+                                            <ul class="talTopNav">
+                                                <li><a href="javascript:;">涂料油漆</a></li>
+                                                <li><a href="#TL8">水性色浆</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="proLine">|</div>
+                                        <div class="talTopContent" data-hide="2"><a href="javascript:;" class="firstNav">塑胶用有机颜料</a><img src="./images/logo-icon.png" alt="图片加载失败"
+                                                                         class="logoIcon"></div>
+                                    </div>
+                                    <div class="hiddenScroll  con">
+                                            <table class="tablePC table" style="z-index: 99; margin-left: -4px" id="table">
+                                                <thead>
+                                                <tr>
+                                                    <th style="width: 90px;"></th>
+                                                    <th style="width:89px;">丽王牌号</th>
+                                                    <th style="width: 89px;">中文名称</th>
+                                                    <th style="width: 88px;">索引号</th>
+                                                    <th style="width: 83px;">结 构&nbsp;索<br/>引 号</th>
+                                                    <th style="width: 80px;">吸油量</th>
+                                                    <th>PH</th>
+                                                    <th style="width: 70px;">耐温(℃/5min)</th>
+                                                    <th>耐光</th>
+                                                    <th>耐候</th>
+                                                    <th>耐酸</th>
+                                                    <th>耐碱</th>
+                                                    <th>耐乙醇</th>
+                                                    <th>耐迁<br/>移性</th>
+                                                    <th style="width: 85px;">性能<br/>特点</th>
+                                                </tr>
+                                                </thead>
+                                                <!--<tbody>-->
+                                                <!--<tr id="1">-->
+                                                    <!--<td><div class="circle" style="background-color: #f4c51c;"></div></td>-->
+                                                    <!--<td>LW-4012D-A</td>-->
+                                                    <!--<td>联苯胺黄 D-A</td>-->
+                                                    <!--<td>PY12</td>-->
+                                                    <!--<td>6358-85-6	</td>-->
+                                                    <!--<td>40-50</td>-->
+                                                    <!--<td>6-7</td>-->
+                                                    <!--<td>190</td>-->
+                                                    <!--<td>5-6</td>-->
+                                                    <!--<td>3-4</td>-->
+                                                    <!--<td>5</td>-->
+                                                    <!--<td>5</td>-->
+                                                    <!--<td>-</td>-->
+                                                    <!--<td>-</td>-->
+                                                    <!--<td style="width: 85px">绿相，半透明，流动性好</td>-->
+                                                <!--</tr>-->
+                                                <!--</tbody>-->
+                                            </table>
+                                        <div class="roll">
+                                            <table class="table tablePC">
+                                                <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>丽王牌号</th>
+                                                    <th>中文名称</th>
+                                                    <th>索引号</th>
+                                                    <th>结构索<br/>引号</th>
+                                                    <th>吸油量</th>
+                                                    <th>PH</th>
+                                                    <th>耐温(℃/5min)</th>
+                                                    <th>耐光</th>
+                                                    <th>耐候</th>
+                                                    <th>耐酸</th>
+                                                    <th>耐碱</th>
+                                                    <th>耐乙醇</th>
+                                                    <th>耐迁<br/>移性</th>
+                                                    <th>性能<br/>特点</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody class="youmo">
+                                                <tr>
+                                                    <td colspan="15">水性墨用有机颜料</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="hiddenScroll  con">
+                                        <table class="tablePC table" style="z-index: 99; margin-left: -4px" id="table1">
+                                            <thead>
+                                            <tr>
+                                                <th style="width: 90px;"></th>
+                                                <th style="width:89px;">丽王牌号</th>
+                                                <th style="width: 89px;">中文名称</th>
+                                                <th style="width: 88px;">索引号</th>
+                                                <th style="width: 83px;">结 构&nbsp;索<br/>引 号</th>
+                                                <th style="width: 80px;">吸油量</th>
+                                                <th>PH</th>
+                                                <th style="width: 70px;">耐温(℃/5min)</th>
+                                                <th>耐光</th>
+                                                <th>耐候</th>
+                                                <th>耐酸</th>
+                                                <th>耐碱</th>
+                                                <th>耐渗色</th>
+                                                <th>耐迁<br/>移性</th>
+                                                <th style="width: 130px;">性能特点</th>
+                                            </tr>
+                                            </thead>
+                                        </table>
+                                        <div class="roll">
+                                            <table class="table tablePC">
+                                                <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>丽王牌号</th>
+                                                    <th>中文名称</th>
+                                                    <th>索引号</th>
+                                                    <th>结构索引号</th>
+                                                    <th>吸油量</th>
+                                                    <th>PH</th>
+                                                    <th>耐温(℃/5min)</th>
+                                                    <th>耐光</th>
+                                                    <th>耐候</th>
+                                                    <th>耐酸</th>
+                                                    <th>耐碱</th>
+                                                    <th>耐渗色</th>
+                                                    <th>耐迁移性</th>
+                                                    <th>性能特点</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody class="TL">
+                                                <tr><td colspan="15">涂料油漆</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="hiddenScroll  con">
+                                        <table class="tablePC table" style="z-index: 99; margin-left: -4px" id="table2">
+                                            <thead>
+                                            <tr>
+                                                <th style="width: 90px;"></th>
+                                                <th style="width:89px;">丽王牌号</th>
+                                                <th style="width: 89px;">中文名称</th>
+                                                <th style="width: 88px;">索引号</th>
+                                                <th style="width: 83px;">结 构&nbsp;索<br/>引 号</th>
+                                                <th style="width: 80px;">吸油量</th>
+                                                <th>PH</th>
+                                                <th style="width: 70px;">耐温(℃/5min)</th>
+                                                <th>耐光</th>
+                                                <th>耐候</th>
+                                                <th>耐酸</th>
+                                                <th>耐碱</th>
+                                                <th>耐乙醇</th>
+                                                <th>耐迁<br/>移性</th>
+                                                <th style="width: 85px;">性能<br/>特点</th>
+                                            </tr>
+                                            </thead>
+                                            <!--<tbody>-->
+                                            <!--<tr id="1">-->
+                                            <!--<td><div class="circle" style="background-color: #f4c51c;"></div></td>-->
+                                            <!--<td>LW-4012D-A</td>-->
+                                            <!--<td>联苯胺黄 D-A</td>-->
+                                            <!--<td>PY12</td>-->
+                                            <!--<td>6358-85-6	</td>-->
+                                            <!--<td>40-50</td>-->
+                                            <!--<td>6-7</td>-->
+                                            <!--<td>190</td>-->
+                                            <!--<td>5-6</td>-->
+                                            <!--<td>3-4</td>-->
+                                            <!--<td>5</td>-->
+                                            <!--<td>5</td>-->
+                                            <!--<td>-</td>-->
+                                            <!--<td>-</td>-->
+                                            <!--<td style="width: 85px">绿相，半透明，流动性好</td>-->
+                                            <!--</tr>-->
+                                            <!--</tbody>-->
+                                        </table>
+                                        <div class="roll">
+                                            <table class="table tablePC">
+                                                <thead>
+                                                <tr>
+                                                    <th></th>
+                                                    <th>丽王牌号</th>
+                                                    <th>中文名称</th>
+                                                    <th>索引号</th>
+                                                    <th>结构索引号</th>
+                                                    <th>吸油量</th>
+                                                    <th>PH</th>
+                                                    <th>耐温(℃/5min)</th>
+                                                    <th>耐光</th>
+                                                    <th>耐候</th>
+                                                    <th>耐酸</th>
+                                                    <th>耐碱</th>
+                                                    <th>耐迁移性</th>
+                                                    <th>性能特点</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody class="SL">
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="GoTop">
+            <img src="./images/jiantou-rongyu.png" alt="图片加载失败">
+        </div>
+    </section>
+</div>
+</body>
+</html>
